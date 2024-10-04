@@ -1,0 +1,17 @@
+# Make the env file and put things like
+## SECRET_KEY = "your-secret-key"
+## ALGORITHM = "HS256"
+## ACCESS_TOKEN_EXPIRE_MINUTES = 30
+
+# Put the models in a new dir
+# E.g
+# _______|<Models>|_______
+#       ____|<user.py>|_____ -> This can store user authentications... etc, so put the models in a new dir and the rest should be easy
+
+# Put the schemas in a new dir
+# E.g
+# _______|<Schema>|_______
+#       ____|<user.py>|_____ -> This can store user schema
+
+# Study Bigger application in fastapi docs and use it in recreating the routers, using FastApi ApiRouter (Like flask)
+# Use the ideaology to recreate the application
